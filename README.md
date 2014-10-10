@@ -5,10 +5,13 @@ Simple imap listener for Node.js.
 
 ## Installation
 
+```
 npm install simple-imap
+```
 
 ## Usage
 
+```
 var SimpleImap = require('simple-imap');
 
 var options = {
@@ -47,3 +50,4 @@ simpleImap.on('end', function() {
 });
 
 simpleImap.start();
+```
