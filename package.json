@@ -2,7 +2,7 @@
 	"name": "simple-imap",
 	"author": "Iwan Junaid <iwan.junaid@gmail.com>",
 	"description": "Simple imap listener for Node.js.",
-	"version": "0.1.4",
+	"version": "0.1.5",
 	"license": "MIT",
 	"main": "simple-imap.js",
 	"repository": {
