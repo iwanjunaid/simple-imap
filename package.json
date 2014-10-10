@@ -10,7 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/iwanjunaid/simple-imap/issues"
 	},
-	"tags": [
+	"keywords": [
 		"imap", "simple", "nodejs"
 	],
 	"engines": {
