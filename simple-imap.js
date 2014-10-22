@@ -82,6 +82,15 @@ var SimpleImap = function(options) {
 		this.imap.destroy();
 	}
 	
+	this.restart = function() {
+		this.stop();
+
+		if (arguments.length >= 1)
+			this.options = arguments[0];
+
+		this.start();
+	}
+
 	this.getImap = function() {
 		return this.imap;
 	}

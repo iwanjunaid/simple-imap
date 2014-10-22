@@ -1,9 +1,9 @@
 var SimpleImap = require('./../simple-imap');
 
 var options = {
-	user: '<your username>',
-	password: '<password>',
-	host: '<imap host>',
+	user: 'kictest12@gmail.com',
+	password: 'segerwaras',
+	host: 'imap.gmail.com',
 	port: 993,
 	tls: true,
 	mailbox: 'INBOX'
